@@ -28,11 +28,11 @@ public class Piechart extends Frame {
 
         // Draw Against
         g.setColor(Color.RED);
-        g.fillArc(50, 50, 300, 300, supportiveAngle, againstAngle);
+        g.fillArc(50, 100, 300, 300, supportiveAngle, againstAngle);
 
         // Draw Neutral
         g.setColor(Color.BLUE);
-        g.fillArc(50, 50, 300, 300, supportiveAngle + againstAngle, neutralAngle);
+        g.fillArc(50, 50, 300, 320, supportiveAngle + againstAngle, neutralAngle);
     }
 
     public static void main(String[] args)
